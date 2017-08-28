@@ -1,0 +1,82 @@
+/* Top Navigatio */
+.company-logo{
+   padding-left: 150px;
+   margin-top: -100px;
+   margin-bottom: -100px
+}
+
+.nav-menu{
+  justify-content: space-between;
+  padding-right: 200px;
+}
+.bg-white{
+  background-color: white;
+}
+
+
+.btn-media{
+  border-radius: 0px;
+  background-color: lightgray;
+  font-style: normal;
+  color: black;
+  border: 0px;
+}
+
+.btn-media:hover, .cta-btn:hover{
+    background-color: #19b2d4;
+}
+
+
+.cta-btn{
+  background-color: #4a79ab;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.bg-lightgray{
+    background-color: #a8a7a4;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.bg-lightblue{
+  background-color: #19b2d4;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.text-white{
+  color: white;
+}
+
+.cta-text{
+  padding-right: 150px;
+  padding-left: 150px;
+  align-items: center; /*!!! Doesnt align content vertically centere */
+}
+
+.credibility{
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-headline{
+  padding-left: 150px;
+  align-items: center;
+}
+
+.subscribe-img{
+  margin-right: 10px;
+}
+
+.text-small{
+  font-size: 14px;
+}
+#list-title{
+  padding-left: 20px;
+}
