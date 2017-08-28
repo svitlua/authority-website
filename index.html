@@ -7,48 +7,104 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!--Additional CSS files -->
+    <link rel="stylesheet" href="css/nav.css">
+
     <title>Authority Website</title>
   </head>
   <body>
     <h1></h1>
     <header>
     <!-- Section #1 – "Navigation" section (logo + links) -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light row">
-      <a class="navbar-brand col-6" href="#">
-      <img src="https://logo.clearbit.com/baremetrics.com" width="40" height="40" alt="Company Logo"/></a>
-      <ul class="navbar-nav col-4">
-          <li class="nav-item"><a class="nav-link" href="#">Tab1</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Tab2</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Tab3</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Tab4</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white row">
+      <a class="navbar-brand col-7 company-logo" href="#">
+      <img src="images/company-logo.png" alt="Company Logo"/></a>
+      <ul class="navbar-nav col-5 nav-menu">
+          <li class="nav-item"><a class="nav-link hover-blue" href="#">Tab 1</a></li>
+          <li class="nav-item"><a class="nav-link hover-blue" href="#">Tab 2</a></li>
+          <li class="nav-item"><a class="nav-link hover-blue" href="#">Tab 3</a></li>
+          <li class="nav-item"><a class="nav-link hover-blue" href="#">Tab 4</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><img src="images/search-btn.png" alt="Search"/></a></li>
+
       </ul>
     </nav>
     </header>
-    
+
     <main>
-    <!-- Section #2 – "Banner" section (background + heading + paragraph + button)-->
-    
-    <!-- Section #3 – "Credibility Logos" section (links) -->
-    
-    <!-- Section #4 – "Subscribe Buttons" section (\w 2 banners, heading, & text) -->
-    
+        <!-- Section #2 – "Banner" section (background + heading + paragraph + button)-->
+        <section>
+          <div class="row">
+              <div class="card text-center col-8 bg-lightgray">
+                <div class="card-body text-white cta-text">
+                    <h4 class="card-title">Main Headline Here</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                    <a href="#" class="btn btn-secondary cta-btn">Call-to-Action Button Here</a>
+                </div>
+              </div>
+                <div class="col-4 bg-lightgray">
+                    <img src="images/silhouette.png" alt="Your Faces"/>
+               </div>
+         </div>
+        </section>
+
+        <!-- Section #3 – "Credibility Logos" section (links) -->
+        <section>
+          <div class="row credibility">
+              <b>AS SEEN ON</b>
+              <a class="btn btn-secondary btn-media" href="#" role="button">Media 1</a>
+              <a class="btn btn-secondary btn-media" href="#" role="button">Media 2</a>
+              <a class="btn btn-secondary btn-media" href="#" role="button">Media 3</a>
+              <a class="btn btn-secondary btn-media" href="#" role="button">Media 4</a>
+              <a class="btn btn-secondary btn-media" href="#" role="button">Media 5</a>
+        </div>
+        </section>
+
+        <!-- Section #4 – "Subscribe Buttons" section (\w 2 banners, heading, & text) -->
+        <section>
+          <div class="row">
+            <div class="card col-5 bg-lightblue main-headline">
+              <div class="card-body text-white">
+                  <p class="card-text">Main Headline</p>
+                  <div class="image-container">
+                    <a href="#"><img class="subscribe-img" src="images/subscribe-itunes.png"/></a>
+                    <a href="#"><img class="subscribe-img" src="images/subscribe-stitcher.png"/></a>
+                  </div>
+              </div>
+            </div>
+            <div class="card col-7 bg-lightblue main-headline">
+              <div class="card-body text-white text-small">
+                  <p class="card-text" id="list-title">Our top-rated show will teach you how to...</p>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                    <li>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing eserunt mollit </li>
+
+                  </ul>
+              </div>
+             </div>
+
+          </div>
+        </section>
+
     <!-- Section #5 –  "Featured Guests" section -->
-    
+
     <!-- Section #6 – "Latest Episodes" section -->
-    
+
     <!-- Section #7 – "Popular Episodes" section -->
-    
+
     <!-- Section #8 – "Facebook" section (can be placeholder image) -->
-    
+
     <!-- Section #9 – "How To Consume" section -->
     </main>
-    
+
     <footer>
     <!-- Section #10 – "Footer" section -->
-    
+
     <!-- Section #11 – "Legalise" section -->
     </footer>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
