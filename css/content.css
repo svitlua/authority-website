@@ -3,19 +3,22 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-a:hover{
+a:link{
     text-decoration: none;
+}
+a.hover{
+    color: white;
 }
 .guest-cnt{
     width: 500px;
-    height: 700px;
+    height: 600px;
     display: flex;
     margin: auto;
     justify-content: center;
-    padding: 2px 10px;
+    padding: 2px 2px;
 }
 .guest {
-    margin: 15px;
+    margin: 0px 15px;
 }
 .guest p{
     display: flex;
@@ -26,3 +29,10 @@ a:hover{
     width: 180px;
     height: 160px;
 }
+.btn-outline-primary{
+    display: flex;
+    margin: auto;
+    margin-top: -170px;
+    margin-bottom: 25px;
+}
+
