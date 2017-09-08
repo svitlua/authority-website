@@ -1,0 +1,28 @@
+.headline{
+    margin: 0px 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a:hover{
+    text-decoration: none;
+}
+.guest-cnt{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 2px 10px;
+}
+.guest {
+    margin: 15px;
+}
+.guest p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.photo{
+    width: 180px;
+    height: 160px;
+}
