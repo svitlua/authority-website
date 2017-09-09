@@ -161,3 +161,42 @@ aside.social-media-widgets {
 .consume-cnt .photos{
     border-radius: 50%;
 }
+.articules {
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.descriptions {
+    width: 300px;
+    margin: 40px 50px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footer .headline{
+    justify-content: flex-start;
+}
+.someText {
+    width: 400px;
+    margin: 40px 50px;
+    text-align: center;
+}
+.footer-button{
+    padding: 15px;
+    border: 1px solid #19b2d4;
+}
+.copyrigth{
+    margin-bottom: 0px;
+    height: 50px;
+    background: #29394E;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
