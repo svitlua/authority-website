@@ -1,44 +1,68 @@
-.headline{
-    margin: 0px 40%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 a:link{
     text-decoration: none;
 }
-a.hover{
-    color: white;
+
+.headline{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
 }
-.guest-cnt{
-    width: 600px;
-    height: 600px;
+div.guest{
+    margin: 0 20px;
+    width: 575px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.featureguest{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+.photos{
+    width: 180px;
+    height: 150px;
+}
+.title{
+    padding: 3px;
+}
+.text{
+    margin: 10px;
+}
+.description{
+    margin-top: 5px;
+}
+.latestEpisode{
+    width: 700px;
+    height: 500px;
     display: flex;
     margin: auto;
+    margin-top: 15px;
     justify-content: center;
     padding: 2px 2px;
 }
-.guest {
+.episode {
     margin: 0px 15px;
 }
-.guest p{
+.episode p{
+    padding: -15px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
 }
 .photo{
     width: 180px;
     height: 160px;
 }
-.btn-outline-primary{
+.btn-outline-primary {
     display: flex;
     margin: auto;
-    margin-top: -170px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
-.photos{
-    margin-bottom: 25px;
+.other{
+    margin-left: 70px;
+    font-size: 12px;
 }
-/*.container{
-    color: palevioletred;
-}*/
-
