@@ -1,0 +1,202 @@
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: #19b2d4;
+}
+a:hover{
+    color: #19b2d4;
+    cursor: wait;
+}
+p{
+    font-size: 14px;
+    font-family: Arial;
+}
+.headline{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+div.guest{
+    margin: 0 20px;
+    width: 575px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.featureguest{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 980px;
+    height: 200px;
+}
+.photos{
+    width: 180px;
+    height: 150px;
+}
+.title{
+    padding: 3px;
+}
+.text{
+    margin: 0px 10px;
+}
+.description{
+    margin-top: 5px;
+}
+.latestEpisode{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+    padding: 2px 2px;
+}
+.latestEpisode .text{
+    margin-top: 15px;
+}
+.episode {
+    margin: 0px 15px;
+}
+.episode p{
+    padding: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.photo{
+    width: 180px;
+    height: 160px;
+}
+.btn-outline-primary {
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.other{
+    margin-left: 70px;
+    font-size: 12px;
+}
+.button{
+    display: flex;
+    margin: 0px 500px;
+    margin-bottom: 15px;
+    color: #19b2d4;
+    justify-content: center;
+    border: 1px solid #19b2d4;
+    padding: 5px;
+    width: 150px;
+}
+div.popEpis{
+    margin: 0 20px;
+    width: 575px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.popularEp{
+    display: flex;
+
+    flex-direction: row;
+}
+.popularEp .headline {
+    justify-content: flex-start;
+    margin-left: 90px;
+    margin-bottom: 15px;
+ }
+.popularEp .photos{
+    width: 150px;
+    height: 150px;
+}
+.popularEpisode{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 70px;
+    width: 50%;
+}
+.popEpis .title{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+}
+.popEpis a:visited{
+    color: inherit;
+}
+.popEpis a:hover{
+    color: inherit;
+    cursor: default;
+}
+.popEpis .photo{
+    width: 200px;
+}
+.popEpis .title , p{
+    display: flex;
+    flex-direction: row;
+}
+aside.social-media-widgets {
+    width: 300px;
+    padding: 10px 20px;
+}
+.facebook{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 40%;
+}
+.bluetext {
+    color: #449BE7;
+}
+.consume-cnt{
+    margin: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.consume-cnt .photos{
+    border-radius: 50%;
+}
+.articules {
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.descriptions {
+    width: 300px;
+    margin: 40px 50px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footer .headline{
+    justify-content: flex-start;
+}
+.someText {
+    width: 400px;
+    margin: 40px 50px;
+    text-align: center;
+}
+.footer-button{
+    padding: 15px;
+    border: 1px solid #19b2d4;
+}
+.copyrigth{
+    margin-bottom: 0px;
+    height: 50px;
+    background: #29394E;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
