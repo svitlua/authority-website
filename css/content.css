@@ -152,3 +152,12 @@ aside.social-media-widgets {
 .bluetext {
     color: #449BE7;
 }
+.consume-cnt{
+    margin: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.consume-cnt .photos{
+    border-radius: 50%;
+}
