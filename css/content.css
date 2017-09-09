@@ -8,6 +8,10 @@ a:hover{
     color: #19b2d4;
     cursor: wait;
 }
+p{
+    font-size: 14px;
+    font-family: Arial;
+}
 .headline{
     display: flex;
     width: 100%;
@@ -27,6 +31,9 @@ div.guest{
     padding: 0 50px;
     display: flex;
     flex-direction: row;
+    margin: auto;
+    width: 980px;
+    height: 200px;
 }
 .photos{
     width: 180px;
@@ -36,19 +43,22 @@ div.guest{
     padding: 3px;
 }
 .text{
-    margin: 10px;
+    margin: 0px 10px;
 }
 .description{
     margin-top: 5px;
 }
 .latestEpisode{
-    width: 700px;
+    width: 800px;
     height: 500px;
     display: flex;
     margin: auto;
     margin-top: 15px;
     justify-content: center;
     padding: 2px 2px;
+}
+.latestEpisode .text{
+    margin-top: 15px;
 }
 .episode {
     margin: 0px 15px;
@@ -80,4 +90,65 @@ div.guest{
     justify-content: center;
     border: 1px solid #19b2d4;
     padding: 5px;
+    width: 150px;
+}
+div.popEpis{
+    margin: 0 20px;
+    width: 575px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.popularEp{
+    display: flex;
+
+    flex-direction: row;
+}
+.popularEp .headline {
+    justify-content: flex-start;
+    margin-left: 90px;
+    margin-bottom: 15px;
+ }
+.popularEp .photos{
+    width: 150px;
+    height: 150px;
+}
+.popularEpisode{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 70px;
+    width: 50%;
+}
+.popEpis .title{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+}
+.popEpis a:visited{
+    color: inherit;
+}
+.popEpis a:hover{
+    color: inherit;
+    cursor: default;
+}
+.popEpis .photo{
+    width: 200px;
+}
+.popEpis .title , p{
+    display: flex;
+    flex-direction: row;
+}
+aside.social-media-widgets {
+    width: 300px;
+    padding: 10px 20px;
+}
+.facebook{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 40%;
+}
+.bluetext {
+    color: #449BE7;
 }
