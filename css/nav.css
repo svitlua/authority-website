@@ -1,4 +1,8 @@
 /* Top Navigation */
+.company-logo{
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
 
 .nav-menu{
   justify-content: space-between;
@@ -47,12 +51,12 @@
 }
 
 .cta-text{
-  padding: 3rem 5rem;
+  padding: 2.5rem 5rem;
 }
 
 .credibility{
   display: flex;
-  padding: 1rem 5rem;
+  padding: .6rem 5rem;
   justify-content: space-around;
   align-items: center;
 }
@@ -77,4 +81,8 @@
 
 #list-title{
   padding-left: 1rem;
+}
+
+img{
+  max-width: 100%;
 }
