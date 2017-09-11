@@ -1,8 +1,4 @@
 /* Top Navigation */
-.company-logo{
-   margin-top: 0rem;
-   margin-bottom: 0rem;
-}
 
 .nav-menu{
   justify-content: space-between;
@@ -51,41 +47,34 @@
 }
 
 .cta-text{
-  padding-right: 150px;
-  padding-left: 150px;
-  align-items: center; /*!!! Doesnt align content vertically centere */
+  padding: 5rem 5rem;
 }
 
 .credibility{
   display: flex;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 2rem 5rem;
   justify-content: space-around;
   align-items: center;
 }
 
 .main-headline{
-  padding-left: 150px;
+  padding-left: 3rem;
   align-items: center;
 }
 
 .subscribe-img{
-  margin-right: 10px;
+  margin-right: .75rem;
 }
 
 .teach-list{
-  padding-right: 150px;
+  padding-right: 5rem;
   align-items: center;
 }
 
 .text-small{
-  font-size: 14px;
+  font-size: .75rem;
 }
 
 #list-title{
-  padding-left: 20px;
-}
-
-.align-y{
-  align-items: center; /* Doesnt align items vertically in the center */
+  padding-left: 1rem;
 }
